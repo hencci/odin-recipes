@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
 body {
     background-color: peachpuff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -9,9 +15,33 @@ body {
 
 }
 
+#indexH1 {
+    border: 2px solid black;
+    border-width: 5px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: center;
+    width: 350px;
+    display: inline-flex;
+}
+
 #indexList {
     list-style-type: none;
 }
+
+#egusi, #okra, #afang {
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-width: 3px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 
 a {
     text-decoration: none;
@@ -23,6 +53,7 @@ a:hover {
 
 h1 {
     text-align: center;
+    tra
 }
 
 img {
